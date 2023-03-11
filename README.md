@@ -4,12 +4,14 @@ By: Mark den Ouden (s5356865)
 
 ## Content
 - get_twitter_data.sh (a shellscript that downlaods twitter data from karora.let.rug.nl)
-- punctuation_counter.py
-- README.md
+- punctuation_counter.py (a python program that counts the occurences of '?', '!' and '.'. )
+- README.md 
 
 ## Background information
 It is already known that some days are more popular to tweet than other days, M.J. Rust et al. [1] showed that Twitter is used more during (summer) holidays.
 But they did not do any research on the content of those tweets. 
+There are also differences known between different gender and usage of punctuation [2]. 
+This could means the usage of punctuation is not the same for everyone, then why should it be the same everytime?
 
 
 ## Research Question and Hypothesis
@@ -29,4 +31,8 @@ Regular Expressions: To filter the Twitter data, a python module that uses regul
 This module deletes all retweets and links from the data collection and it counts all occurences of periods, exclamation marks and question marks.
 
 # References
-Geographically Resolved Rhythms in Twitter Use Reveal Social Pressures on Daily Activity Patterns
+[1] Eugene Leypunskiy, Emre Kıcıman, Mili Shah, Olivia J. Walch, Andrey Rzhetsky, Aaron R. Dinner, Michael J. Rust,
+Geographically Resolved Rhythms in Twitter Use Reveal Social Pressures on Daily Activity Patterns,
+Current Biology,Volume 28, Issue 23, 2018, Pages 3763-3775.e5, ISSN 0960-9822, https://doi.org/10.1016/j.cub.2018.10.016.
+
+[2] A1 Waseleski, Carol, Gender and the Use of Exclamation Points in Computer-Mediated Communication: An Analysis of Exclamations Posted to Two Electronic Discussion Lists, Journal of Computer-Mediated Communication, J Comput Mediat Commun, 2017, 10.1111/j.1083-6101.2006.00305.x
